@@ -15,7 +15,7 @@ import java.io.IOException;
 public class BeforeClass {
 
 
-    @Managed(driver = "firefox")
+    @Managed(driver = "chrome")
 
     public WebDriver driver;
     public String ChromePath = "/var/lib/jenkins/jobs/TestThucydides/selenium/chromedriver";
