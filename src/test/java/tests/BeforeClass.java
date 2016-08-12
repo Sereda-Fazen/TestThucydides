@@ -18,7 +18,7 @@ public class BeforeClass {
     @Managed(driver = "chrome")
 
     public WebDriver driver;
-    public String ChromePath = "/var/lib/jenkins/jobs/Junit/selenium/chromedriver";
+    public String ChromePath = "/var/lib/jenkins/jobs/TestThucydides/selenium/chromedriver";
 
 
     @Steps
