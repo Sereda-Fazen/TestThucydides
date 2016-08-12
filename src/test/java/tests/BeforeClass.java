@@ -20,7 +20,6 @@ public class BeforeClass {
     public WebDriver driver;
     public String ChromePath = "/var/lib/jenkins/jobs/TestThucydides/selenium/chromedriver";
 
-
     @Steps
     public LoginSteps settings;
 
